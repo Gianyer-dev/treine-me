@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.navbar__logo {
+    width: 150px;
+}
+
+.navbar__link-item {
+    font-family: var(--font-primaria);
+    font-size: 18px;
+    padding: 1.2em;
+    border-radius: 10%;
+}
+
+.navbar__link a {
+    text-decoration: none;
+}
+
+.navbar__link a {
+    color: var(--cor-link);
+    font-weight: 400;
+}
+
+.navbar__link a:hover {
+    font-weight: 600;
+    background-color: var(--cor-hover);
+}
