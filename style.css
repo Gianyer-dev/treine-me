@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url("./styles/nav.css");
 @import url("./styles/section.css");
+@import url("./styles/footer.css");
 
 :root {
     --cor-fundo: #E3FFF8;
     --cor-hover: #d0ebe2;
     --font-primaria: "Mulish", serif;
+    --cor-texto: #7D7987;
     --cor-link: #1F1534;
     --titulo-destaque: #89C5CC;
-    --cor-texto: #7D7987;
     --cor-butao: #69B99D;
     --texto-butao: #F9F9F9;
 }

@@ -1,22 +1,22 @@
 .section {
-    margin: 0 1.5em;
     display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 2em;
+    grid-template-columns: 50% 40%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 25% 25%;
+    align-items: center;
 }
 
 .section__titulo {
     text-transform: uppercase;
     font-size: 48px;
     font-weight: 500;
-    line-height: 1.5;
-    padding: 0.5em 0;
+    line-height: 2;
+    margin: 1em 0;
 }
 
 .titulo__destaque {
@@ -44,6 +44,14 @@
     align-items: center;
     border-radius: 4px;
     text-decoration: none;
+}
+
+.section__butao:hover {
+    background-color: #5ba38a;
+}
+
+.section__imagem {
+    width: 520px;
 }
 
 
