@@ -24,8 +24,13 @@
 
 .navbar__container-link a { 
     color: var(--cor-link);
+
 }
 
 .navbar__container-item {
+    padding: 1em;
+}
+
+.navbar__container-item a {
     padding: 1em;
 }
