@@ -34,3 +34,21 @@
 .navbar__container-item a {
     padding: 1em;
 }
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+        margin: 0 5em;
+    }
+
+    .navbar__container-link {
+        background-color: var(--cor-de-fundo);
+        justify-content: end;
+    }
+
+    .navbar__container-item:hover {
+        background-color: var(--cor-hover);
+        border-radius: 1em;
+        font-weight: 700;
+    }
+}

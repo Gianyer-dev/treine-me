@@ -50,5 +50,29 @@
     padding: 0.5em;
 }
 
+@media screen and (min-width: 1024px) {
+    .conteudo {
+        flex-direction: row;
+        margin: 1em 5em;
+    }
 
+    .conteudo__container {
+        justify-content: center;
+        text-align: start;
+        align-items: start;
+    }
+
+    .conteudo__titulo {
+        margin: 0.25em 0;
+    }
+
+    .conteudo__texto {
+        width: 75%;
+        margin: 0.5em 0;
+    }
+
+    .conteudo__butao {
+        margin: 1em 0;
+    }
+}
 
