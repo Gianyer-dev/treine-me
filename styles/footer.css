@@ -1,10 +1,7 @@
 .footer {
     display: flex;
     justify-content: center;
-}
-
-.footer__texto {
-    font-size: 14px;
+    margin: 1em 0;
 }
 
 .footer__destaque {

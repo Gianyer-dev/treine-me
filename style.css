@@ -1,22 +1,26 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url("./styles/nav.css");
 @import url("./styles/section.css");
 @import url("./styles/footer.css");
 
 :root {
-    --cor-fundo: #E3FFF8;
-    --cor-hover: #d0ebe2;
-    --font-primaria: "Mulish", serif;
-    --cor-texto: #7D7987;
-    --cor-link: #1F1534;
+    --cor-de-fundo: #E3FFF8;
+    --cor-hover: #c7e2db;
+    --fonte-principal: "Mulish", serif;
+
     --titulo-destaque: #89C5CC;
-    --cor-butao: #69B99D;
+    --texto-destaque: #7D7987;
+    --cor-link: #1F1534;
+
+    --cor-butao: #89C5CC;
     --texto-butao: #F9F9F9;
 }
 
 body {
-    background-color: var(--cor-fundo);
-    margin: 1.8em;
-    font-family: var(--font-primaria);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
+
+a {
+    text-decoration: none;
 }
